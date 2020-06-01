@@ -1,0 +1,307 @@
+html, body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke !important;
+}
+
+.body-contain {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 110px;
+}
+
+@font-face {
+    font-family: 'Novecentosanswide';
+    src: local('Novecentosanswide'), url(../fonts/Novecentosanswide-Bold.otf) format('opentype');
+}
+
+.navbar-brand {
+    font-family: 'Novecentosanswide';
+    font-size: 26px !important;
+    margin-right: 0 !important;
+    border: none  !important;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+button.navbar-toggler, button.navbar-toggler.collapsed {
+    color: black;
+    border: none;
+    font-size: x-large;
+    font-weight: 900;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 5px;
+}
+
+nav a {
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    color: grey;
+}
+
+nav a:hover {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.header-home {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.header-home-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+
+.header-home-container i {
+    font-size: x-large;
+    color: rgb(190, 190, 190);
+    margin-top: 5px;
+}
+
+.controls-tracker {
+    display: inline-flex;
+    width: fit-content;
+    margin: 0 10px 10px 10px;
+    border-radius: 5px;
+    background-color: white !important;
+}
+
+.controls-tracker .nav {
+    width: fit-content;
+    flex-wrap: nowrap;
+}
+
+#filter-data-dropdown, #change-view-dropdown {
+    color: black;
+    border: none;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: whitesmoke solid 2px;
+}
+
+.btn {
+    padding: 0 !important;
+    padding-left: 5px !important;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+#example, .example {
+    width: fit-content;
+    margin-left: 40px;
+    border: black solid 1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#example {
+    padding-right: 5px !important;
+}
+
+.main-home {
+    background-color: white;
+}
+
+h2 {
+    font-family: 'Novecentosanswide';
+    border-bottom: black 3px solid;
+    width: fit-content;
+    margin-left: 40px;
+    padding-top: 10px !important;
+}
+
+h1 {
+    font-family: 'Novecentosanswide';
+    padding: 10px 15px;
+    font-size: xx-large !important;
+    padding-bottom: 0;
+    margin-bottom: 0 !important;
+}
+
+.tracker-header-text {
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+    font-family: 'Novecentosanswide';
+    padding-left: 5px;
+    padding-right: 0;
+    margin-right: 15px;
+}
+
+.home-header-text {
+    font-family: 'Novecentosanswide';
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    height: 300px;
+    background: url(../imgs/mainheader.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+p {
+    padding: 0 40px;
+    margin-bottom: 0 !important;
+}
+
+.chart-contain {
+    margin: 0 10px;
+    overflow-x: auto;
+}
+
+.add-form-contain {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.add-form-contain input {
+    height: 30px;
+    margin-left: 2px;
+    width: 100px !important;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.add-form-contain label {
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.add-form-contain #tel-input {
+    width: 120px !important;
+}
+
+.add-form-contain #email-input {
+    width: 155px !important;
+}
+
+.add-form-contain #coc-input {
+    width: 75px !important;
+}
+
+.add-form-contain #pro-input {
+    width: 95px !important;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#add-button {
+    margin-left: 20px;
+}
+
+.spinner-border {
+    color: grey;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.table-contain {
+    margin: 0 10px;
+    overflow-x: auto;
+}
+
+.tracker-table {
+    text-align: center;
+    //margin: 0 10px;
+}
+
+.tracker-table thead tr {
+    line-height: 20px;
+    border: white 3px solid;
+}
+
+.tracker-table thead tr th {
+    font-family: inherit;
+    background-color: darkred;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: white 3px solid;
+    font-weight: 900;
+}
+
+.tracker-table tbody tr td {
+    font-size: 18px;
+    padding: 10px 10px;
+    border: white 2px solid;
+    border-collapse: collapse;
+}
+
+.tracker-table #table-td {
+    font-size: 30px;
+}
+
+footer {
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    background-color: whitesmoke;
+    color: grey;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer address {
+    padding-left: 40px;
+}
+
+@media (min-width:711px) {
+    .header-home {
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width:992px) {
+    nav a {
+        color: black !important;
+        border: none;
+        font-size: 26px;
+        font-family: 'Novecentosanswide';
+        margin-right: 20px;
+        transition: color 2s;
+        transition: background-color 1s;
+    }
+
+    nav a:hover {
+        background-color: whitesmoke;
+        color: darkgray !important;
+    }
+
+    .navbar-brand {
+        font-size: 30px !important;
+    }
+}
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
